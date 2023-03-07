@@ -7,6 +7,7 @@ export const createUser = createAsyncThunk(
   async (payload, thunkAPI) => {
     try {
       const res = await axios.post(`${BASE_URL}/users`, payload);
+      console.log(res);
       return res.data;
     } catch (error) {
       console.log(error);
