@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/internet-shop-app/static/css/main.9b2ec942.css",
+    "main.js": "/internet-shop-app/static/js/main.768d61f3.js",
+    "static/media/computer.png": "/internet-shop-app/static/media/computer.5e56530d0ea3793fd73d.png",
+    "static/media/banner.png": "/internet-shop-app/static/media/banner.60b57e7c22678c62bf30.png",
+    "static/media/avatar.jpg": "/internet-shop-app/static/media/avatar.4bc3b938691acbda7100.jpg",
+    "static/media/devices.png": "/internet-shop-app/static/media/devices.a0974f63230d0b90cbec.png",
+    "static/media/shoe.png": "/internet-shop-app/static/media/shoe.db601c8f04844976b606.png",
+    "static/media/logo.svg": "/internet-shop-app/static/media/logo.fb6afde46b43989ab58d298634d1c757.svg",
+    "index.html": "/internet-shop-app/index.html",
+    "main.9b2ec942.css.map": "/internet-shop-app/static/css/main.9b2ec942.css.map",
+    "main.768d61f3.js.map": "/internet-shop-app/static/js/main.768d61f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b2ec942.css",
+    "static/js/main.768d61f3.js"
+  ]
+}
