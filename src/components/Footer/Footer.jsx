@@ -14,7 +14,11 @@ function Footer() {
       </div>
       <div className={styles.rights}>
         Developed by{" "}
-        <a href="http://youtube.com" rel="noreferrer" target="_blank">
+        <a
+          href="https://github.com/lehahorban"
+          rel="noreferrer"
+          target="_blank"
+        >
           Oleksii
         </a>
       </div>
