@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import { updateUser } from "../../features/user/userSlice";
+import { updateUser } from "../../features/user/userOperations";
 
 import styles from "../../styles/Profile.module.css";
 
@@ -15,6 +15,8 @@ const Profile = () => {
     password: "",
     avatar: "",
   });
+
+  console.log(updateUser);
 
   useEffect(() => {
     if (!currentUser) return;
@@ -32,7 +34,7 @@ const Profile = () => {
     const isNotEmpty = Object.values(values).every((val) => val);
 
     if (!isNotEmpty) return;
-
+    console.log(values);
     dispatch(updateUser(values));
   };
 

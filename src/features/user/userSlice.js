@@ -54,4 +54,5 @@ const userSlice = createSlice({
 
 export const { addItemToCart, toggleForm, toggleFormType, removeItemFromCart } =
   userSlice.actions;
+
 export default userSlice.reducer;

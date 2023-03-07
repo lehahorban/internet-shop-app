@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { createUser } from "../../features/user/userSlice";
+import { createUser } from "../../features/user/userOperations";
 
 import styles from "../../styles/User.module.css";
 

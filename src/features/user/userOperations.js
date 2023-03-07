@@ -37,7 +37,7 @@ export const updateUser = createAsyncThunk(
   "user/updateUser",
   async (payload, thunkAPI) => {
     try {
-      const res = await axios.put(`${BASE_URL}/users${payload.id}`, payload);
+      const res = await axios.put(`${BASE_URL}/users/${payload.id}`, payload);
       return res.data;
     } catch (error) {
       console.log(error);
